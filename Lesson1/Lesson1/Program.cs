@@ -10,6 +10,9 @@ namespace Lesson1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Zdarova!");
+
+            Console.ReadLine();
         }
     }
 }
