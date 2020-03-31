@@ -14,8 +14,6 @@ namespace Lesson1
             Console.ReadLine();
             Console.WriteLine("Mano irgi!");
             Console.ReadLine();
-
-            Console.Clear();
         }
     }
 }
