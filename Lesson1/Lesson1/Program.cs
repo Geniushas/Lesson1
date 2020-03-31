@@ -10,9 +10,12 @@ namespace Lesson1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Zdarova!");
-
+            Console.WriteLine("Kokia jusu megstamiausia spalva?");
             Console.ReadLine();
+            Console.WriteLine("Mano irgi!");
+            Console.ReadLine();
+
+            Console.Clear();
         }
     }
 }
