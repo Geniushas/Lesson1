@@ -17,7 +17,7 @@ namespace vartotojuIvestines
 
             Console.WriteLine("Sandauga: " + vartotojasVienas * vartotojasDu);
             Console.WriteLine("Dalyba: " + vartotojasVienas / vartotojasDu);
-            Console.WriteLine("Suma: " + vartotojasVienas + vartotojasDu);
+            Console.WriteLine("Suma: " + (vartotojasVienas + vartotojasDu));
             Console.WriteLine("Skirtumas: " + (vartotojasVienas - vartotojasDu));
 
             Console.ReadLine();
