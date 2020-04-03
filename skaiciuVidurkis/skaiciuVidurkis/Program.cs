@@ -12,16 +12,16 @@ namespace skaiciuVidurkis
         {
             Console.WriteLine("Zemiau iveskite keturis pasirinktus skaicius:");
 
-            Console.Write("1: ");
+            Console.Write("Pirmas skaicius: ");
             double skaiciusVienas = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("2: ");
+            Console.Write("Antras skaicius: ");
             double skaiciusDu = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("3: ");
+            Console.Write("Trecias skaicius: ");
             double skaiciusTrys = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("4: ");
+            Console.Write("Ketvirtas skaicius: ");
             double skaiciusKeturi = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Siu skaiciu vidurkis: " + (skaiciusVienas + skaiciusDu + skaiciusTrys + skaiciusKeturi) / 4);
