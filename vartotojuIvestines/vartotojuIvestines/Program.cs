@@ -11,14 +11,14 @@ namespace vartotojuIvestines
         static void Main(string[] args)
         {
             Console.WriteLine("Pirmasis vartotojau, iveskite savo skaiciu:");
-            double vartotojasVienas = Convert.ToDouble(Console.ReadLine());
+            double skaiciusVienas = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Antrasis vartotojau, iveskite savo skaiciu:");
-            double vartotojasDu = Convert.ToDouble(Console.ReadLine());
+            double skaiciusDu = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Sandauga: " + vartotojasVienas * vartotojasDu);
-            Console.WriteLine("Dalyba: " + vartotojasVienas / vartotojasDu);
-            Console.WriteLine("Suma: " + (vartotojasVienas + vartotojasDu));
-            Console.WriteLine("Skirtumas: " + (vartotojasVienas - vartotojasDu));
+            Console.WriteLine("Sandauga: " + skaiciusVienas * skaiciusDu);
+            Console.WriteLine("Dalyba: " + skaiciusVienas / skaiciusDu);
+            Console.WriteLine("Suma: " + (skaiciusVienas + skaiciusDu));
+            Console.WriteLine("Skirtumas: " + (skaiciusVienas - skaiciusDu));
 
             Console.ReadLine();
             
